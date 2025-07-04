@@ -1,6 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import Habits from "./components/sections/habits";
+import Testimonials from "./components/sections/testimonials";
+import Health from "./components/sections/health";
+import FAQSection from "./components/sections/faq-section";
+import AppDownloadSection from "./components/sections/app-download";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -161,6 +165,11 @@ function App() {
         `}</style>
       </section>
       <Habits />
+
+      <Testimonials />
+      <Health />
+      <FAQSection />
+      <AppDownloadSection />
     </main>
   );
 }
