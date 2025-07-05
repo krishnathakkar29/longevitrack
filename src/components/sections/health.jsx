@@ -1,6 +1,8 @@
-import React from "react";
+import React, { use } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Health() {
+  const navigate = useNavigate();
   return (
     <section className="bg-black min-h-screen flex flex-col items-center justify-center px-4 py-16 relative overflow-hidden">
       {/* Header Content */}
@@ -9,7 +11,12 @@ function Health() {
           Join the thousands taking control of their health every day
         </h1>
 
-        <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors mb-4">
+        <button
+          className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors mb-4"
+          onClick={() => {
+            navigate("/pricing");
+          }}
+        >
           Try for FREE
         </button>
       </div>

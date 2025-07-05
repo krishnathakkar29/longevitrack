@@ -13,7 +13,7 @@ function Pricing() {
       <div className="absolute bottom-0 left-0 w-[500px] h-[300px] bg-gradient-radial from-[#02ADA9] via-[#00E073] to-transparent opacity-35 blur-3xl transform -translate-x-32 translate-y-16"></div>
 
       {/* Leaf element positioned at bottom left - only partially visible */}
-      <div className="absolute bottom-0 left-0 z-20">
+      <div className="absolute -bottom-14 left-0 z-20">
         <img
           src="/hero/left.png"
           alt="Decorative leaf"
@@ -22,7 +22,7 @@ function Pricing() {
       </div>
 
       {/* Main content container */}
-      <div className="relative z-30 min-h-screen flex items-center justify-center px-6 lg:px-12 py-20">
+      <div className="relative z-30 min-h-screen flex items-center justify-center md:ml-24 px-6 lg:px-12 py-20">
         {/* Desktop Layout */}
         <div className="hidden lg:grid w-full max-w-7xl grid-cols-2 gap-20 items-center">
           {/* Left side - Pricing content */}
@@ -131,19 +131,19 @@ function Pricing() {
 
           {/* Right side - QR Code */}
           <div className="flex flex-col items-center justify-center space-y-6">
-            <div className="text-center space-y-4">
-              <p className="text-white text-lg">
+            <div className="text-center space-y-1">
+              <p className="text-white text-md">
                 Scan the QR code to download app on
               </p>
-              <p className="text-white text-lg">
+              <p className="text-white text-md">
                 Google Play Store or Apple App Store
               </p>
             </div>
-            <div className="bg-white p-6 rounded-2xl">
+            <div className="bg-white p-2 rounded-2xl">
               <img
                 src="/hero/qr.png"
                 alt="QR Code for app download"
-                className="w-48 h-48"
+                className="w-80 h-80"
               />
             </div>
           </div>
