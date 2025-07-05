@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="relative min-h-screen bg-black font-dm">
+    <div className="relative min-h-screen bg-black font-dm pt-32 md:pt-0">
       {/* Top right gradient glow */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-radial from-[#00FFFF] via-[#A4FF9F] to-[#00FF6A] opacity-30 blur-3xl transform translate-x-32 -translate-y-32"></div>
 
@@ -19,7 +19,7 @@ function Contact() {
       </div>
 
       {/* Main content container */}
-      <div className="relative z-30 min-h-screen flex items-center justify-center px-6 lg:px-12 py-20">
+      <div className="relative z-30 min-h-screen flex items-center justify-center px-6 lg:px-12 py-20 ">
         <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left side - Contact information */}
           <div className="text-white space-y-6">

@@ -80,22 +80,16 @@ function Home() {
         </div>
 
         {/* Central content */}
-        <div className="relative z-30 flex flex-col items-center justify-center max-h-screen px-6 mt-20 text-center">
+        <div className="relative z-30 flex flex-col items-center justify-center max-h-screen px-6 mt-28 md:mt-36 text-center">
           {/* DNA/Health icon */}
           <div className="mb-8">
-            <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-[#02ADA9] to-[#00E073] rounded-lg flex items-center justify-center">
-              <svg
-                className="w-8 h-8 text-white"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-              </svg>
+            <div className="w-16 md:w-24 h-16 md:h-24 mx-auto mb-4 rounded-lg flex items-center justify-center">
+              <img src="/hero/center.png" alt="" />
             </div>
           </div>
 
           {/* Main heading */}
-          <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold mb-6 max-w-4xl font-hanken">
+          <h1 className="text-4xl lg:text-6xl xl:text-7xl relative shadow-lg shadow-transparent z-[100] font-bold mb-6 max-w-4xl font-hanken ">
             <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent">
               Your Daily System for a
             </span>

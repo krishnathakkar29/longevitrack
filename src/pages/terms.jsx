@@ -19,7 +19,7 @@ function Terms() {
       </div>
 
       {/* Main content container */}
-      <div className="relative z-50 min-h-screen flex flex-col items-center justify-center px-6 lg:px-12 py-20">
+      <div className="relative z-50 min-h-screen flex flex-col items-center justify-center px-6 lg:px-12 py-20 mt-28 md:mt-0">
         {/* Header section */}
         <div className="text-center mb-16 max-w-4xl">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-8">
