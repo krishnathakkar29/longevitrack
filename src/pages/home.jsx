@@ -1,5 +1,6 @@
 import AppDownloadSection from "@/components/sections/app-download";
 import FAQSection from "@/components/sections/faq-section";
+import Features from "@/components/sections/features";
 import Habits from "@/components/sections/habits";
 import Health from "@/components/sections/health";
 import TestimonialsSection from "@/components/sections/testimonials";
@@ -39,13 +40,13 @@ function Home() {
         {/* Left leaf with glow */}
         <div className="absolute bottom-0 left-0 z-20">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#02ADA9] to-[#02ADA9] opacity-50 blur-2xl"></div>
+            <div className="absolute inset-0  bg-gradient-to-r from-[#02ADA9] to-[#02ADA9] opacity-50 blur-2xl"></div>
             <img
               src="/hero/left.png"
               alt="Left decorative leaf"
               width={400}
               height={600}
-              className="relative z-10"
+              className="relative z-10 -bottom-36"
             />
           </div>
         </div>
@@ -53,13 +54,13 @@ function Home() {
         {/* Right leaf with glow */}
         <div className="absolute bottom-0 right-0 z-20">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-l from-[#02ADA9] to-[#02ADA9] opacity-50 blur-2xl"></div>
+            <div className="absolute inset-0 -bottom-12 bg-gradient-to-l from-[#02ADA9] to-[#02ADA9] opacity-50 blur-2xl"></div>
             <img
               src="/hero/rightleaf.png"
               alt="Right decorative leaf"
               width={400}
               height={600}
-              className="relative z-10"
+              className="relative z-10 -bottom-40"
             />
           </div>
         </div>
@@ -164,6 +165,7 @@ function Home() {
       <Habits />
 
       <TestimonialsSection />
+      <Features />
       <Health />
       <FAQSection />
       <AppDownloadSection />
