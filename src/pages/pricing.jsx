@@ -2,7 +2,7 @@ import React from "react";
 
 function Pricing() {
   return (
-    <div className="relative w-screen min-h-screen bg-black overflow-hidden">
+    <div className="relative w-screen min-h-screen bg-black overflow-hidden font-dm">
       {/* Top right gradient glow */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-radial from-[#02ADA9] via-[#00E073] to-transparent opacity-40 blur-3xl transform translate-x-32 -translate-y-32"></div>
 

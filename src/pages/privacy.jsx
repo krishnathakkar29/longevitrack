@@ -2,7 +2,7 @@ import React from "react";
 
 function Privacy() {
   return (
-    <div className="relative w-screen min-h-screen bg-black overflow-hidden">
+    <div className="relative w-screen min-h-screen bg-black overflow-hidden font-dm">
       {/* Extended right gradient glow - taller than contact page */}
       <div className="absolute top-0 right-0 w-96 h-[600px] bg-gradient-radial from-[#00FFFF] via-[#A4FF9F] to-[#00FF6A] opacity-30 blur-3xl transform translate-x-32 -translate-y-16"></div>
 

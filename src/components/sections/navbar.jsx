@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <>
       {/* Desktop Navbar - unchanged */}
-      <nav className="hidden lg:flex fixed top-0 left-0 right-0 z-[500] items-center justify-center px-6 lg:px-12 py-6 bg-transparent backdrop-blur-sm">
+      <nav className="hidden lg:flex fixed top-0 left-0 right-0 z-[500] items-center justify-center px-6 lg:px-12 py-6 bg-transparent backdrop-blur-sm font-dm">
         <div className="relative flex items-center space-x-8">
           {navItems.map((item) => (
             <Link

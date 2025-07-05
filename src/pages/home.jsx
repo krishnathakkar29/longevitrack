@@ -5,8 +5,10 @@ import Habits from "@/components/sections/habits";
 import Health from "@/components/sections/health";
 import TestimonialsSection from "@/components/sections/testimonials";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <main className=" min-h-screen">
       <section className="relative w-full min-h-screen bg-black overflow-hidden">
@@ -15,27 +17,6 @@ function Home() {
 
         {/* Top glow effect */}
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-32 bg-gradient-to-b from-[#02ADA9] to-transparent opacity-70 blur-3xl z-50"></div>
-
-        {/* Navigation */}
-        {/* <nav className="relative z-30 flex items-center justify-center px-6 lg:px-12 py-6">
-          <div className="flex items-center space-x-8">
-            <button className="px-6 py-2 bg-gradient-to-r from-[#02ADA9] to-[#00E073] text-white rounded-full text-sm font-medium">
-              Home
-            </button>
-            <button className="text-white hover:text-gray-300 text-sm font-medium">
-              Benefits
-            </button>
-            <button className="text-white hover:text-gray-300 text-sm font-medium">
-              Features
-            </button>
-            <button className="text-white hover:text-gray-300 text-sm font-medium">
-              Member stories
-            </button>
-            <button className="text-white hover:text-gray-300 text-sm font-medium">
-              Contact Us
-            </button>
-          </div>
-        </nav> */}
 
         {/* Left leaf with glow */}
         <div className="absolute bottom-0 left-0 z-20">
@@ -114,7 +95,7 @@ function Home() {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold mb-6 max-w-4xl">
+          <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold mb-6 max-w-4xl font-hanken">
             <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent">
               Your Daily System for a
             </span>
@@ -125,13 +106,18 @@ function Home() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-white text-lg lg:text-xl mb-8 max-w-2xl">
+          <p className="text-white text-lg lg:text-3xl mb-8 max-w-2xl font-hanken">
             Track routines, build habits, and take control of your healthspan -
             one day at a time
           </p>
 
           {/* CTA Button */}
-          <button className="px-8 py-4 bg-gradient-to-r from-[#02ADA9] to-[#00E073] text-white text-lg font-semibold rounded-full hover:shadow-lg hover:shadow-[#02ADA9]/25 transition-all duration-300 transform hover:scale-105">
+          <button
+            className="px-8 py-4 bg-gradient-to-r from-[#02ADA9] to-[#00E073] text-white text-lg md:text-3xl font-semibold rounded-2xl hover:shadow-lg hover:shadow-[#02ADA9]/25 transition-all duration-300 transform hover:scale-105 font-dm"
+            onClick={() => {
+              navigate("/pricing");
+            }}
+          >
             Try for FREE
           </button>
         </div>
@@ -164,8 +150,8 @@ function Home() {
       </section>
       <Habits />
 
-      <TestimonialsSection />
       <Features />
+      <TestimonialsSection />
       <Health />
       <FAQSection />
       <AppDownloadSection />

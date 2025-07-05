@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function Health() {
   const navigate = useNavigate();
   return (
-    <section className="bg-black min-h-screen flex flex-col items-center justify-center px-4 py-16 relative overflow-hidden">
+    <section className="bg-black min-h-screen flex flex-col items-center justify-center px-4 py-16 relative overflow-hidden font-dm">
       {/* Header Content */}
       <div className="text-center mb-12 max-w-5xl">
         <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
@@ -69,7 +69,7 @@ function Health() {
             <div className="relative mb-6">
               <div className="w-72 h-56 md:w-80 md:h-60 rounded-3xl overflow-hidden bg-black">
                 <img
-                  src="/testimonial/man.jpg"
+                  src="/app/one.png"
                   alt="Person using health app"
                   fill
                   className="object-cover"
@@ -87,7 +87,7 @@ function Health() {
             <div className="relative mb-6">
               <div className="w-64 h-48 md:w-72 md:h-52 rounded-3xl overflow-hidden bg-black">
                 <img
-                  src="/testimonial/man.jpg"
+                  src="/app/two.png"
                   alt="Person using health app"
                   fill
                   className="object-cover"

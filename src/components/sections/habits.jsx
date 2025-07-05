@@ -8,7 +8,7 @@ function Habits() {
 
       <div className="relative z-10 container mx-auto px-4 py-12 max-w-6xl">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 font-dm">
           <p className="text-sm text-gray-400 uppercase tracking-wider mb-2">
             YOUR DAILY HEALTH SYSTEM
           </p>
@@ -23,7 +23,7 @@ function Habits() {
           <div className="relative  bg-[#083E34] bg-opacity-50 backdrop-blur-sm rounded-lg p-6">
             <div className=" rounded-2xl h-full">
               <div className="mb-8 px-2 md:px-8 ">
-                <h2 className="md:leading-[70px] bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent text-2xl md:text-5xl font-semibold">
+                <h2 className="md:leading-[70px] bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent text-2xl md:text-5xl font-semibold font-hanken">
                   Create routines <br />
                   <span className="text-white"> that build </span> healthy
                   <br />
@@ -121,13 +121,13 @@ function Habits() {
           {/* Card 2 - Wellness in Sync */}
           <div className="relative  bg-[#083E34] bg-opacity-50 backdrop-blur-sm rounded-lg p-6">
             <div className="">
-              <h2 className="text-2xl md:text-5xl font-bold mb-2 text-white">
-                <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent ">
+              <h2 className="text-2xl md:text-5xl font-bold mb-2 text-white font-dm">
+                <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent font-dm">
                   Wellness
                 </span>{" "}
                 in Sync
               </h2>
-              <p className="text-white text-lg md:text-2xl mb-4 mt-4">
+              <p className="text-white text-lg md:text-2xl mb-4 mt-4 font-dm">
                 Easily build and follow wellness with a calender that fits your
                 day
               </p>
@@ -149,13 +149,13 @@ function Habits() {
           {/* Card 3 - One View */}
           <div className=" relative bg-[#083E34] bg-opacity-50 backdrop-blur-sm rounded-lg p-6">
             <div className="">
-              <h2 className="text-2xl md:text-5xl font-bold mb-2 text-white">
-                <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent ">
+              <h2 className="text-2xl md:text-5xl font-bold mb-2 text-white font-dm">
+                <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent font-dm ">
                   One
                 </span>{" "}
                 view
               </h2>
-              <p className="text-white text-lg md:text-2xl mb-4 mt-4">
+              <p className="text-white text-lg md:text-2xl mb-4 mt-4 font-dm">
                 It's hard to stay consistent when your routines are all over the
                 place. Bring everything together in one simple dashboard
               </p>
@@ -178,13 +178,13 @@ function Habits() {
             {/* Right gradient overlay */}
             <div className="absolute right-0 top-0 bottom-0 w-1 rounded-r-2xl" />
             <div className="">
-              <h2 className="text-2xl md:text-5xl font-bold mb-4 text-white">
+              <h2 className="text-2xl md:text-5xl font-bold mb-4 text-white font-dm">
                 Stay{" "}
-                <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[#02ADA9] to-[#00E073] bg-clip-text text-transparent font-dm">
                   on Track
                 </span>
               </h2>
-              <p className="text-white text-lg md:text-2xl mb-4 leading-relaxed">
+              <p className="text-white text-lg md:text-2xl mb-4 leading-relaxed font-dm">
                 Form habits that actually stick. Smart reminders help you stay
                 consistent so your health goals don't fall behind
               </p>

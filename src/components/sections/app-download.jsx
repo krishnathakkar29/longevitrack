@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function AppDownloadSection() {
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden font-dm">
       {/* Main Content Area */}
       <div className="relative">
         {/* Upper Section with Dark Green Background */}

@@ -11,56 +11,64 @@ const testimonials = [
     text: "Lorem ipsum dolor sit amet. Est maiores veritatis eos esse pariatur eum quis quod. Cum exercitationem qui quibusdam ut numquam deserunt qui eligendi doloreaque et aperiam tenetur. Et abcaecat quam vel blanditiis aliquam aut recendis repudiandae ut inventore veniam.",
     author: "MARY THOMPSON",
     role: "Founder of FlowTech",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
   {
     id: 2,
     text: "Amazing platform that helped us scale our business efficiently. The team support is outstanding and the features are exactly what we needed for our growth journey.",
     author: "JOHN SMITH",
     role: "CEO of TechCorp",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
   {
     id: 3,
     text: "The results speak for themselves. We've seen a 300% increase in productivity since implementing this solution. Highly recommended for any growing business.",
     author: "SARAH JOHNSON",
     role: "Product Manager at InnovateLab",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
   {
     id: 4,
     text: "Exceptional service and incredible results. The platform is intuitive and the support team goes above and beyond to ensure our success every step of the way.",
     author: "MICHAEL CHEN",
     role: "CTO of StartupXYZ",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
   {
     id: 5,
     text: "This platform transformed our business operations completely. The ROI has been incredible and our team couldn't be happier with the results we're seeing.",
     author: "EMILY DAVIS",
     role: "Operations Director at GrowthCo",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
   {
     id: 6,
     text: "Outstanding customer service and a product that delivers on every promise. We've recommended this solution to all our business partners.",
     author: "DAVID WILSON",
     role: "Marketing Lead at BrandForce",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
   {
     id: 7,
     text: "The implementation was seamless and the results were immediate. This solution has become an integral part of our daily operations and success strategy.",
     author: "ALEX RODRIGUEZ",
     role: "Founder of NewVenture",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
   {
     id: 8,
     text: "Incredible value and exceptional support. The platform has helped us streamline our processes and achieve goals we never thought possible.",
     author: "LISA CHEN",
     role: "VP of Operations at ScaleUp",
-    avatar: "/placeholder.svg?height=48&width=48",
+    avatar:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAMFBMVEXY2Nitra3Gxsbb29uqqqqxsbHT09PQ0NC0tLS9vb26urrKysrCwsK3t7fNzc2np6d/lbmlAAADmklEQVR4nO2byZLjIAxAwWKxjZf//9sGd8eT9CQYhASeKV7lkOMrFiEjIUSn0+m0AACEMdYaa47/t8EOs9ZayvDT4+zMHeTAuFnuSj6jdj1toq0cmEmrV60fOamXhm6wrfs7rR85tZg2biCmj1Y/bnppsuCGt9P4e1K32mog1muvw22pqwZbktb3lJqaYkOymEfbesO2pM3kOWy19ihkinlcFTUYssXqjBq4fDEP/zYAgxKTmn3QjEaJSTUzq8GMGzKvxrsLwO1IsbALOM2wc3mYcc4nTNi5PHB8Zsh9+WBkE4O5SEyqgWs+bZkYY1BDR4wTrpVW6iXlyuKFOcn/giWmQUEse6AmjpVmCcx49kB+vviOjcGsfGcGOEIahZc/POnFLMmQSfpvPJKY4VGW3KzwzDzNyI8Bimh2mNHfJlCZkeePhkbMJ2nUZsUZ0AmxGdzXLP1a6gLVzbrZZ267A+jM6HNHKrP1tqcT+ZcAjERm5Cc6XJVyUs3IPwSoMkeGL87Ce6AHHPdBJFuA4wvlvl91ebWmj3BcbJBkteQZbQDWcjGmW0dcWecVDi9BsDtZdmag/DaI4yYoUFKnOGBZ/wFEyfUF+juNP5SJca0yUXysMw6ZEAVZGnPnhsVXETWnV9F8ss5lADmfO1s17ARQYjwlil9mqC9PvtJmoRrz6j/VXLZYrXaq3FGrNGLfajo9eHAeSu9IbNnzVG7aCx8sKW5KV2909AfVmNCBOTVpXAV34abWin2Er2oiNqV+Ilt2IcO2vtumSump1XidbsIMq9yfun6V2uXkGjVG/wLAuGVex8A6LU7coQn/5HyvcCurTue/J7wastvgBizOWUv/pAfENo1af4dRHDK8N9JjiHV0Wj7Gq8hDmDyUGgeaYwvMnJG+prnJmeDosiv+tiDCvpZ9sIOYk/JWBEpOJQuOpgDwya2gQaisEzrBbUYNW9Z3GxbMox7YKoh5sj+s8u8HsOQ+ZyBrzrgk86UFSedsKllrraZY1j1R+pUFBSq5sFJaKMlXS7woxb60KlFLPESJOkZySGsVoiiv5pJUKYYGYkn7k6yTJY+UklSDVXaoXZq1WGWH2dVKg7pB9onLRz0sWX8S8ZjWaP0H1HAxma3EpIq3PxZ3PZSoRc3oembz2aMLrVXMCMTjRu3854XoWwuarjwksQSy4daU8Xo21fMcHLF8A9dV0M26WTfrZt2sm3WzbtbNulk3+8fMvgAq0zkY2Kvf4QAAAABJRU5ErkJggg==",
   },
 ];
 
@@ -142,7 +150,7 @@ export default function TestimonialsSection() {
   }, [allTestimonials.length, currentIndex]);
 
   return (
-    <div className="min-h-screen bg-black relative overflow-hidden">
+    <div className="min-h-screen bg-black relative overflow-hidden font-dm">
       {/* Green Gradient Background (z-10) */}
       <div
         className="absolute top-0 left-0 right-0 h-[55vh] z-10"
@@ -349,7 +357,7 @@ export default function TestimonialsSection() {
                       <div className="flex items-center gap-3 mt-auto">
                         <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-600 flex-shrink-0">
                           <img
-                            src={testimonial.avatar || "/placeholder.svg"}
+                            src={testimonial.avatar || ""}
                             alt={testimonial.author}
                             width={40}
                             height={40}

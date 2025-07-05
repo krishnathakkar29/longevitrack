@@ -6,6 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useNavigate } from "react-router-dom";
 
 const faqData = [
   {
@@ -53,8 +54,9 @@ const faqData = [
 ];
 
 export default function FAQSection() {
+  const navigate = useNavigate();
   return (
-    <div className="bg-black">
+    <div className="bg-black font-dm">
       <section className="w-full  py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -96,7 +98,12 @@ export default function FAQSection() {
             <p className="text-gray-400 text-sm mb-4">
               Still have questions? We're here to help.
             </p>
-            <button className="inline-flex items-center justify-center px-6 py-3 border border-[#91FFAE] text-[#91FFAE] bg-transparent hover:bg-[#91FFAE] hover:text-black rounded-full text-sm font-medium transition-all duration-300 hover:scale-105">
+            <button
+              className="inline-flex items-center justify-center px-6 py-3 border border-[#91FFAE] text-[#91FFAE] bg-transparent hover:bg-[#91FFAE] hover:text-black rounded-full text-sm font-medium transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                navigate("/contact");
+              }}
+            >
               Contact Support
             </button>
           </div>

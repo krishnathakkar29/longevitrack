@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="relative min-h-screen bg-black">
+    <div className="relative min-h-screen bg-black font-dm">
       {/* Top right gradient glow */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-radial from-[#00FFFF] via-[#A4FF9F] to-[#00FF6A] opacity-30 blur-3xl transform translate-x-32 -translate-y-32"></div>
 
